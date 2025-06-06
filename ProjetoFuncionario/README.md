@@ -1,18 +1,24 @@
-## Getting Started
+# Funcionario Class Menu
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é um sistema de gerenciamento de funcionários desenvolvido em Java, utilizando o padrão de arquitetura MVC (Model-View-Controller).
 
-## Folder Structure
+## Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+- `Funcionario.java`: Classe modelo que representa um funcionário.
+- `FuncionarioDAO.java`: Camada de acesso a dados.
+- `FuncionarioRepository.java`: Repositório intermediário entre DAO e Controller.
+- `FuncionarioController.java`: Controla a lógica de negócios.
+- `FuncionarioView.java`: Interface de menu com o usuário via terminal.
+- `Main.java`: Classe principal que inicia a aplicação.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Requisitos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java JDK 8 ou superior
+- Terminal ou IDE (ex: IntelliJ, Eclipse, VSCode)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Compilação
 
-## Dependency Management
+Abra o terminal no diretório do projeto e execute:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+javac *.java
