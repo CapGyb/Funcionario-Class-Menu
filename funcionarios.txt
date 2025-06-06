@@ -1,0 +1,3 @@
+1;Lorraynne;Desenvolvedora;8000.0
+2;Roberto;TI;2000.89
+3;Pedro Daniel;Gestor de RH;24000.0
