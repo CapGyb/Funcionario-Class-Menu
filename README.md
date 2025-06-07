@@ -1,47 +1,32 @@
-Sistema de Cadastro de Funcionários
+##Sistema de Cadastro de Funcionários
 
 Projeto final da disciplina Programação de Soluções Computacionais, com objetivo de implementar um sistema CRUD completo em Java com persistência em arquivo texto.
 
-📌 Funcionalidades
+##📌 Funcionalidades
 
-Criar novo funcionário
+Criar novo funcionário<br>
+Listar todos os funcionários<br>
+Buscar funcionário por ID<br>
+Atualizar dados de um funcionário<br>
+Deletar um funcionário<br>
+Persistência dos dados em arquivo funcionarios.txt<br>
+Interface limpa via console<br>
+<br>
+##📁 Estrutura de Pastas
 
-Listar todos os funcionários
+├── Funcionario.java<br>
+├── FuncionarioController.java<br>
+├── FuncionarioRepository.java<br>
+├── FuncionarioView.java<br>
+├── Main.java<br>
+├── funcionarios.txt (gerado automaticamente)<br>
+<br>
+##✅ Validações
 
-Buscar funcionário por ID
+-Nome não pode ser vazio<br>
+-Salário não pode ser negativo<br>
 
-Atualizar dados de um funcionário
+##📌 Observações
 
-Deletar um funcionário
-
-Persistência dos dados em arquivo funcionarios.txt
-
-Interface limpa via console
-
-📁 Estrutura de Pastas
-
-├── Funcionario.java
-├── FuncionarioController.java
-├── FuncionarioRepository.java
-├── FuncionarioView.java
-├── Main.java
-├── funcionarios.txt (gerado automaticamente)
-
-💡 Requisitos
-
-Java 11 ou superior
-
-Terminal ou IDE com suporte a execução de projetos Java
-
-
-✅ Validações
-
--Nome não pode ser vazio
-
--Salário não pode ser negativo
-
-📌 Observações
-
-O arquivo funcionarios.txt será criado na primeira execução caso não exista.
-
-Toda modificação (criação, edição ou exclusão) atualiza o arquivo imediatamente.
+O arquivo funcionarios.txt será criado na primeira execução caso não exista.<br>
+Toda modificação (criação, edição ou exclusão) atualiza o arquivo imediatamente.<br>
